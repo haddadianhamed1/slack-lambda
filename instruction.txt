@@ -1,0 +1,7 @@
+to package lambda
+pip install module-name -t /path/to/project
+name file lambda_function
+name function lambda_handler
+
+# zip up files seperately inside the directory dont zip the directory itself
+zip -r test.zip *
