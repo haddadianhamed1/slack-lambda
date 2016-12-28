@@ -2,3 +2,14 @@ need to add there are two envrionment variable that need to be setup.
 webhook and test
 webhook is the url for webhook of slack
 test is for testing
+just upload the zip file to lambda
+use IAM text to create IAM role and policy
+for slack install Incomming WebHooks
+
+to package lambda
+pip install module-name -t /path/to/project
+name file lambda_function
+name function lambda_handler
+
+# zip up files seperately inside the directory dont zip the directory itself
+zip -r test.zip *
